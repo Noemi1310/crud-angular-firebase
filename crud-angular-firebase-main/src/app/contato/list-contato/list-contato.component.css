@@ -1,6 +1,6 @@
 .loadWrapper {
 
-  background: rgba(0,0,0,0.3);
+  background: rgba(224, 215, 215, 0.3);
 
   width: 100%;
 
@@ -16,7 +16,7 @@
 
 }
 .h2{
-  color:#0a8891;
+  color:#000000;
 }
 
 .loader {

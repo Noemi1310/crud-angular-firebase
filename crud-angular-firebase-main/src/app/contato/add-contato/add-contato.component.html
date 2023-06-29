@@ -2,7 +2,7 @@
 
 <div class="pt-3 pb-2 mb-3 border-bottom">
 
-  <h2 class="h2">Adicionar Produto</h2>
+  <h2 class="h2">Adicionar Carro</h2>
 
 </div>
 
@@ -28,7 +28,7 @@
 
             [ngClass]="{'text-danger': nome?.touched && nome?.invalid}"
 
-            for="nome" class="form-label">Nome do produto</label>
+            for="nome" class="form-label">Modelo do carro</label>
 
           <input
 
@@ -38,7 +38,7 @@
 
           <!-- errors-->
 
-          <div class="invalid-feedback"><sup>*</sup>Nome do produto obrigatório</div>
+          <div class="invalid-feedback"><sup>*</sup>Nome do carro obrigatório</div>
 
         </div>
 
@@ -128,7 +128,7 @@
 
         <button type="submit" class="btn btn-success mx-2" [disabled]="!contatoForm.valid">
 
-          Adicionar Produto
+          Adicionar Carros
 
         </button>
 

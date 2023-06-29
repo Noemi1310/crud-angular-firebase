@@ -6,9 +6,9 @@
 
   pt-3 pb-2 mb-3 border-bottom">
 
-<h2 class="h2">Lista de Produtos</h2>
+<h2 class="h2">Lista de Carros</h2>
 
-<a routerLink="/add-contato" class="btn btn-success" *ngIf="!listaVazia"> Adicionar Produto</a>
+<a routerLink="/add-contato" class="btn btn-success" *ngIf="!listaVazia"> Adicionar um carro</a>
 
 </div>
 
@@ -28,9 +28,9 @@
 
 <div class="text-center" *ngIf="listaVazia">
 
-<p>Nenhum produto adicionado ainda</p>
+<p>Nenhum carro adicionado ainda</p>
 
-<a routerLink="/add-contato" class="btn btn-success"> Adicionar produto</a>
+<a routerLink="/add-contato" class="btn btn-success"> Adicionar um carro</a>
 
 </div>
 
@@ -46,7 +46,7 @@
 
 <th scope="col">ID</th>
 
-<th scope="col">Produto</th>
+<th scope="col">Carro</th>
 
 <th scope="col">Quantidade</th>
 
